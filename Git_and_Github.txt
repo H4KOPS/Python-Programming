@@ -1,0 +1,38 @@
+Git >> Version Control
+
+>>It is distributed (on cloud)
+>> Collaboration
+>> Tracking
+>> Recovery
+
+>Github
+>BitBucket
+>GitLabs
+>GitPod
+
+>> For 1st time need to configure github in our system.
+
+git config --global user.name "H4KOPS"
+
+git config --global user.email "preetham.pereira@icloud.com"
+
+git config --global color.ui auto |> If needed only
+
+Mandatory Commands:
+>> git  init
+
+>> git remote add origin https://github.com/H4KOPS/Tutedude-Assignments.git
+
+>> git pull origin main
+>> git status
+
+>> git .add (or add particular file)
+>> git status
+>> git commit -m "Commit Message"
+>> git push
+>> git push --set-upstream origin master
+
+>> New Branch: git checkout -b ""
+>> Switch Branch: git checkout ""
+
+>> clone: git clone "URL"
